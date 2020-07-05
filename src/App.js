@@ -1,7 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { HomePage, AboutPage } from './components/pages';
+import { HomePage, AboutPage, AdminPage } from './components/pages';
+
+import 'antd/dist/antd.css';
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/about" component={AboutPage} />
+        <Route path="/admin" component={AdminPage} />
       </Switch>
     </div>
   );

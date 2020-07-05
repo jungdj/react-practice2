@@ -9,3 +9,7 @@ export const HomePage = loadable(() => import('./HomePage'), {
 export const AboutPage = loadable(() => import('./AboutPage'), {
   fallback: <Loading />,
 });
+
+export const AdminPage = loadable(() => import('./AdminPage'), {
+  fallback: <Loading />,
+});

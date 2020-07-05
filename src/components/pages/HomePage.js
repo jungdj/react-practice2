@@ -9,6 +9,7 @@ const HomePage = () => (
     </Helmet>
     <h1>HomePage</h1>
     <Link to="/about">About</Link>
+    <Link to="/admin">Admin</Link>
   </div>
 );
 
